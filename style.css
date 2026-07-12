@@ -11,9 +11,9 @@
 }
 
 @font-face {
-  font-family: 'Exo2 Black';
+  font-family: 'Exo2';
   src: url('fonts/Exo2-Black.ttf') format('truetype');
-  font-weight: 600;
+  font-weight: 900;
 }
 /* ---- Color palette + font variables ---- */
 :root {
@@ -32,7 +32,7 @@
 }
 
 body {
-  font-family: 'Work Sans', sans-serif;
+  font-family: 'Exo2', sans-serif;
   background-color: var(--sky-blue);
   color: var(--ink);
 }
