@@ -1,0 +1,42 @@
+/* fonts!! */
+@font-face {
+  font-family: 'Bungee';
+  src: url('fonts/Bungee-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Exo2';
+  src: url('fonts/Exo2-Medium.ttf') format('truetype');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Exo2 Black';
+  src: url('fonts/Exo2-Black.ttf') format('truetype');
+  font-weight: 600;
+}
+/* ---- Color palette + font variables ---- */
+:root {
+  --sky-blue: #87CEFA;
+  --red: #D00000;
+  --white: #FFFFFF;
+  --green: #00AB44;
+  --ink: #1a1a1a; /* near-black, softer than pure black for borders/text */
+}
+
+/* ---- Reset browser default spacing ---- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Work Sans', sans-serif;
+  background-color: var(--sky-blue);
+  color: var(--ink);
+}
+
+h1, h2, h3 {
+  font-family: 'Bungee', sans-serif;
+}
