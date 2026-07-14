@@ -40,7 +40,7 @@ body {
 h1 {
   font-family: 'Bungee', sans-serif;
   font-size:6em;
-  flood-color: red;
+  color: var(--red);
 }
 
 h2, h3 {
